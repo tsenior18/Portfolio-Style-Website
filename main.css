@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 body{
   width: 100%;
   height: 150vh;
   background: beige;
 }
+/* ------------- NAV Section ------------------------------------------------------------------------- */
 nav{  /* Main Nav DIV */
   position:fixed;
   top:0;
@@ -32,7 +32,7 @@ nav{  /* Main Nav DIV */
   font-size: 20px;
   margin: 10px;
 }
-
+/* ------------- Title of the page Section ----------------------------------------------------------------------- */
 .site-title{  /*WELCOME TO MY PAGE SECTION */
     height: 35vh;
     width: 100%;
@@ -43,9 +43,11 @@ nav{  /* Main Nav DIV */
 .title{
     padding-top: 10%;
     color:black;
-    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: Cambria,Georgia,serif; 
 }
-
+/* ------------- Holiday Photo Section ------------------------------------------------------------------------- */
 .holiday-pictures{ /* Section containg the image */
     margin: 0 auto;
     width: 90%;
@@ -65,4 +67,33 @@ nav{  /* Main Nav DIV */
 }
 .image img:hover{  /*Will Scale the IMG based on hover */
     transform: scale(1.2,1.2);
+}
+/* ------------- Section Describing The about of the page ------------------------------------------------------ */
+.about-website{ /* Main DIV */
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.about-title{
+    color:black;
+    font-family: Cambria,Georgia,serif; 
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-align: center;
+}
+.about-para{ /* Para containing the information */
+    padding-top: 1%;
+    font-size: 20px;
+    font-family: Cambria,Georgia,serif; 
+
+}
+.what-we-show{
+    color: red;
+    list-style: none;
+    font-size: 20px;
+    font-family: Cambria,Georgia,serif; 
 }
