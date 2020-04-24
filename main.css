@@ -2,7 +2,7 @@
 body{
   width: 100%;
   height: 150vh;
-  background: gray;
+  background: beige;
 }
 nav{  /* Main Nav DIV */
   position:fixed;
@@ -13,11 +13,11 @@ nav{  /* Main Nav DIV */
   justify-content:space-between;
   align-items:center;
   padding:5px 20px 5px 0px;
-  background: beige;
+  background: black;
   box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 .name{
-  color: black;
+  color: white;
   font-size: 20px;
   margin: 10px;
 }
@@ -28,18 +28,41 @@ nav{  /* Main Nav DIV */
 }
 .menu-item a, .time{ /* The link for each list item & the time DIV */
   font-weight:400;
-  color: black;
+  color: white;
   font-size: 20px;
   margin: 10px;
 }
 
 .site-title{  /*WELCOME TO MY PAGE SECTION */
-    height: 30vh;
+    height: 35vh;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 .title{
-    padding-top: 8%;
+    padding-top: 10%;
     color:black;
     font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+}
+
+.holiday-pictures{ /* Section containg the image */
+    margin: 0 auto;
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image{
+    list-style: none;
+    margin: 4%;
+}
+.image img {  /*indivdual images */
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+.image img:hover{  /*Will Scale the IMG based on hover */
+    transform: scale(1.2,1.2);
 }

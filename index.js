@@ -18,5 +18,5 @@ function updateClock() {
     // print clock js in div #clock.
     $(".time").html(currentTimeString);}
     $(document).ready(function () {
-    setInterval(updateClock, 1000);
+    setInterval(updateClock, 500);
 });
