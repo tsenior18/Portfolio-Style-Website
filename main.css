@@ -2,6 +2,7 @@
 body{
   width: 100%;
   height: 150vh;
+  background: gray;
 }
 nav{  /* Main Nav DIV */
   position:fixed;
@@ -12,11 +13,11 @@ nav{  /* Main Nav DIV */
   justify-content:space-between;
   align-items:center;
   padding:5px 20px 5px 0px;
-  background:gray;
+  background: beige;
   box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 .name{
-  color: white;
+  color: black;
   font-size: 20px;
   margin: 10px;
 }
@@ -27,7 +28,18 @@ nav{  /* Main Nav DIV */
 }
 .menu-item a, .time{ /* The link for each list item & the time DIV */
   font-weight:400;
-  color: white;
+  color: black;
   font-size: 20px;
   margin: 10px;
+}
+
+.site-title{  /*WELCOME TO MY PAGE SECTION */
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    padding-top: 8%;
+    color:black;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
 }
