@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
 }
 /* ------------- NAV Section ------------------------------------------------------------------------- */
 nav{  /* Main Nav DIV */
@@ -61,8 +61,8 @@ nav{  /* Main Nav DIV */
    padding: 1%;
 }
 img{
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 30%;
   border: 1px solid black;
 }
@@ -95,4 +95,36 @@ img{
   font-size: 20px;
   font-family: Cambria,Georgia,serif;
   color:red;
+}
+/* ------------------------------------------- Log in Box ------------------------------------------------------- */
+
+.wrapper{
+  margin-top: 10%;
+  width: 60%;
+  margin: 0 auto;
+  height: 60vh;
+}
+.login{
+  padding-top: -10%;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  width: 50%;
+  margin: 0 auto;
+  height: 3vh;
+  margin-top: 1%;
+}
+.forgot{
+  width: 50%;
+  margin: auto;
+  font-size: 15px;
+  font-family: Cambria,Georgia,serif;
+  color:black;
+}
+.login-title{
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria,Georgia,serif;
+  color:black;
 }
