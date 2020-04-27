@@ -25,7 +25,7 @@ nav{  /* Main Nav DIV */
     margin-left:15px;
     margin-top: 10px;
   }
-  .menu-item a, .time{ /* The link for each list item & the time DIV */
+  .menu-item a{ /* The link for each list item & the time DIV */
     font-weight:400;
     color: white;
     font-size: 20px;
