@@ -1,11 +1,20 @@
 // Checks the credentials for the password and username 
 $('.button-input').click(function(){
-    var username = $('.input').val();
-    var password = $('.inputs').val();
-    if (username =='tom' && password == 'tom') {
-        alert('hello');
+    let  username = $('.input').val();
+    let  password = $('.inputs').val();
+    if (username == 'tom' && password == 'tom') {
+        alert('Hello');
+        password = '';  // Resets the input sections to empty
+        username = '';  // Resets the input sections to empty
     }
     else{
-        alert('try again');
+        alert('Details Incorrect');
+        password = '';  // Resets the input sections to empty
+        username = ''; // Resets the input sections to empty
     }
-})
+});
+
+
+$('.forgot').click(function(){
+    alert('Forgot Password?');
+});

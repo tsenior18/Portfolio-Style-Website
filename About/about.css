@@ -31,3 +31,17 @@ nav{  /* Main Nav DIV */
     font-size: 20px;
     margin: 10px;
   }
+/* ---------------------------- About Me title --------------------------------------------------------------- */
+.title{
+  width: 98%;
+  height: 30vh;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-title{
+  font-size: 30px;
+  font-family: Cambria,Georgia,serif;
+  padding-top: 8%;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
