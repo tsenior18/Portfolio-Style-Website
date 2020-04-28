@@ -1,7 +1,7 @@
 body{
   width: 100%;
   height: 150vh;
-  background: mintcream;
+  background: slategray;
 }
 /* ------------- NAV Section ------------------------------------------------------------------------- */
 nav{  /* Main Nav DIV */
@@ -42,10 +42,12 @@ nav{  /* Main Nav DIV */
 }
 .title{
     padding-top: 10%;
-    color:black;
+    color:white;
     font-size: 50px;
     letter-spacing: 1px;
-    font-family: Cambria,Georgia,serif; 
+    font-family: Cambria,Georgia,serif;
+    text-decoration: underline;
+    text-decoration-color: black; 
 }
 /* ------------- Holiday Photo Section ------------------------------------------------------------------------- */
 .holiday-pictures{ /* Section containg the image */
@@ -77,22 +79,22 @@ nav{  /* Main Nav DIV */
     flex-direction: column;
 }
 .about-title{
-    color:black;
+    color:white;
     font-family: Cambria,Georgia,serif; 
     font-size: 40px;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: red;
+    text-decoration-color: black;
     text-align: center;
 }
 .about-para{ /* Para containing the information */
     padding-top: 1%;
     font-size: 20px;
     font-family: Cambria,Georgia,serif; 
-
+    color:white;
 }
 .what-we-show{
-    color: red;
+    color: white;
     list-style: none;
     font-size: 20px;
     font-family: Cambria,Georgia,serif; 
